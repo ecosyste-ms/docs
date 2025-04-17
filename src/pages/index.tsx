@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import React from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -17,9 +17,12 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="header__subtext">
+          Build open source intelligence into your application, research, or policy.
+        </p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Get Started
           </Link>
         </div>
       </div>
@@ -27,12 +30,12 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): ReactNode {
+export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title}`}
+      description="Tools and datasets to support, sustain, and secure critical digital infrastructure"
     >
       <HomepageHeader />
       <main>
