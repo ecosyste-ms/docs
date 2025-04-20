@@ -70,7 +70,8 @@ const config: Config = {
         // Theme Options for modifying how redoc renders them
         theme: {
           // Change with your site colors
-          primaryColor: "#333333"
+          primaryColor: "#333333",
+          primaryColorDark: "#cccccc"
         }
       }
     ] satisfies Redocusaurus.PresetEntry
@@ -105,6 +106,11 @@ const config: Config = {
           position: "right"
         }
       ]
+    },
+    docs: {
+      sidebar: {
+        hideable: true
+      }
     },
     footer: {
       style: "dark",
