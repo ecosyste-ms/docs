@@ -3,7 +3,7 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {
@@ -34,4 +34,8 @@
 
 [data-theme="dark"] .navbar__logo img {
   filter: invert(1);
+}
+
+h1 {
+  font-weight: 900;
 }
