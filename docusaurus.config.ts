@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import type * as Redocusaurus from "redocusaurus";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -46,7 +47,33 @@ const config: Config = {
           customCss: "./src/css/custom.css"
         }
       } satisfies Preset.Options
-    ]
+    ],
+    // Redocusaurus config
+    [
+      "redocusaurus",
+      {
+        // Plugin Options for loading OpenAPI files
+        specs: [
+          // Pass it a path to a local OpenAPI YAML file
+          // {
+          //   // Redocusaurus will automatically bundle your spec into a single file during the build
+          //   spec: "openapi/index.yaml",
+          //   route: "/api/"
+          // },
+          // You can also pass it a OpenAPI spec URL
+          {
+            id: "packages-api",
+            spec: "https://raw.githubusercontent.com/ecosyste-ms/packages/c528ee48cdfdc4d76372b8e54b91e290dfa5513b/openapi/api/v1/openapi.yaml",
+            route: "/packages/"
+          }
+        ],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+          // Change with your site colors
+          primaryColor: "#333333"
+        }
+      }
+    ] satisfies Redocusaurus.PresetEntry
   ],
 
   themeConfig: {
@@ -55,7 +82,7 @@ const config: Config = {
     navbar: {
       title: "",
       logo: {
-        alt: "ecosystems Logo",
+        alt: "ecosystems logo",
         src: "img/ecosystems-logo.svg",
         width: "150px",
         height: "30.5px"
