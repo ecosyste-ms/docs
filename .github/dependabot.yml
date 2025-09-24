@@ -8,10 +8,6 @@ updates:
       time: "04:00"
       timezone: "UTC"
     open-pull-requests-limit: 10
-    reviewers:
-      - "maintainer-username"  # Replace with actual maintainer
-    assignees:
-      - "maintainer-username"  # Replace with actual maintainer
     commit-message:
       prefix: "deps"
       include: "scope"
