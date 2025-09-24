@@ -21,7 +21,7 @@ function HomepageHeader() {
           Build open source intelligence into your application, research, or policy.
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
+          <Link className="button button--secondary button--lg" to="/docs/">
             Get Started
           </Link>
         </div>

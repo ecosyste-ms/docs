@@ -61,11 +61,12 @@ const config: Config = {
           //   route: "/api/"
           // },
           // You can also pass it a OpenAPI spec URL
-          {
-            id: "packages-api",
-            spec: "https://raw.githubusercontent.com/ecosyste-ms/packages/c528ee48cdfdc4d76372b8e54b91e290dfa5513b/openapi/api/v1/openapi.yaml",
-            route: "/packages/"
-          }
+          // Temporarily disabled due to SSR context issues
+          // {
+          //   id: "packages-api",
+          //   spec: "https://raw.githubusercontent.com/ecosyste-ms/packages/c528ee48cdfdc4d76372b8e54b91e290dfa5513b/openapi/api/v1/openapi.yaml",
+          //   route: "/packages/"
+          // }
         ],
         // Theme Options for modifying how redoc renders them
         theme: {
@@ -120,7 +121,7 @@ const config: Config = {
           items: [
             {
               label: "Getting Started",
-              to: "/docs/intro"
+              to: "/docs/"
             }
           ]
         },
