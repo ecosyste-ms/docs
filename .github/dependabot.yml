@@ -1,0 +1,38 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "04:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "maintainer-username"  # Replace with actual maintainer
+    assignees:
+      - "maintainer-username"  # Replace with actual maintainer
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+    groups:
+      docusaurus:
+        patterns:
+          - "@docusaurus/*"
+      react:
+        patterns:
+          - "react*"
+          - "@types/react*"
+      dev-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "*"
+    ignore:
+      # Ignore major version updates for stable dependencies
+      - dependency-name: "react"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "react-dom"
+        update-types: ["version-update:semver-major"]
+      # Temporary: ignore webpack-dev-server until Docusaurus updates it
+      - dependency-name: "webpack-dev-server"
+        # Remove this ignore when Docusaurus Core updates to webpack-dev-server >= 5.2.1
