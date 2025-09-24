@@ -7,7 +7,7 @@ import type * as Redocusaurus from "redocusaurus";
 
 const config: Config = {
   title: "ecosystems",
-  tagline: "Tools and datasets to support, sustain, and secure critical digital infrastructure.",
+  tagline: "Open source intelligence for your project",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here

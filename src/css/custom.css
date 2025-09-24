@@ -5,37 +5,140 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap");
 
-/* You can override the default Infima variables here. */
+/* ==== Brand tokens (edit these) =============================== */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Colours */
+  --brand-purple: #7878EF;
+  --brand-purple-light: #BBBBFF;
+  --brand-purple-dark: #5C5CCF;
 
-  --ifm-font-family-base: "Inter", sans-serif;
+  --brand-orange: #FF807D;
+  --brand-orange-light: #FEBDB9;
+  --brand-orange-dark: #DE5858;
+
+  --brand-green: #45E56E;
+  --brand-green-light: #87F5AA;
+  --brand-green-dark: #2EAF6B;
+  --brand-green-darker: #189654;
+
+  --brand-black: #1D1D28;
+  --brand-white: #FFFFFF;
+  --brand-grey-light: #F5F5FF;
+  --brand-grey: #DCDCE0;
+  --brand-grey-dark: #4C4C61;
+  --brand-grey-cold: #F0F0F0;
+
+  /* Typography */
+  --brand-font-base: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --brand-font-size: 18px;
+  /* 1.125rem */
+  --brand-line-height: 1.3334;
+
+  --brand-h1: 47px;
+  --brand-h2: 35px;
+  --brand-h3: 26px;
+  --brand-h4: 20px;
+
+  --brand-link: var(--brand-purple-dark);
+  --brand-link-hover: var(--brand-purple);
+
+  --brand-shadow-purple: 0px 7px 24px var(--brand-purple-light);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+/* ==== Map brand → Docusaurus theme ============================ */
+:root {
+  /* Primary palette */
+  --ifm-color-primary: var(--brand-purple);
+  --ifm-color-primary-dark: var(--brand-purple-dark);
+  --ifm-color-primary-light: var(--brand-purple-light);
+
+  /* Semantic */
+  --ifm-color-success: var(--brand-green-dark);
+  --ifm-color-info: var(--brand-purple-light);
+  --ifm-color-warning: var(--brand-orange-light);
+  --ifm-color-danger: var(--brand-orange-dark);
+
+  /* Base type & sizes */
+  --ifm-font-family-base: var(--brand-font-base);
+  --ifm-font-size-base: var(--brand-font-size);
+  --ifm-line-height-base: var(--brand-line-height);
+
+  /* Headings */
+  --ifm-heading-font-weight: 700;
+  --ifm-h1-font-size: var(--brand-h1);
+  --ifm-h2-font-size: var(--brand-h2);
+  --ifm-h3-font-size: var(--brand-h3);
+  --ifm-h4-font-size: var(--brand-h4);
+
+  /* Links & code */
+  --ifm-link-color: var(--brand-link);
+  --ifm-link-hover-color: var(--brand-link-hover);
+  --ifm-code-font-size: 90%;
+
+  /* Borders & cards */
+  --ifm-border-color: var(--brand-grey);
+  --ifm-card-border-color: var(--brand-grey);
+
+  /* Buttons spacing/weight */
+  --ifm-button-padding-vertical: 0.5em;
+  --ifm-button-padding-horizontal: 1em;
+  --ifm-button-font-weight: 600;
+
+  --ifm-footer-background-color: var(--brand-purple-dark);
 }
 
-[data-theme="dark"] .navbar__logo img {
-  filter: invert(1);
+/* Dark mode adjustments */
+html[data-theme='dark'] {
+  --ifm-color-primary: #9d94ff;
+  --ifm-color-primary-dark: #7c73f5;
+  --ifm-color-primary-light: #cfcaff;
+
+  --ifm-color-success: var(--brand-green);
+  --ifm-color-warning: #ffc4c0;
+  --ifm-color-danger: #ff948f;
+
+  --ifm-navbar-background-color: #15151f;
+  --ifm-footer-background-color: #15151f;
+
+  --ifm-link-color: #cfcaff;
+  --ifm-link-hover-color: #e7e4ff;
 }
 
-h1 {
+/* Subtle brand flavour */
+.hero--primary {
+  color: var(--brand-black);
+  background: var(--brand-white);
+}
+
+.hero__title {
   font-weight: 900;
+}
+
+.hero__title,
+.hero__subtitle {
+  text-align: left;
+}
+
+/* Utilities editors can use in MDX */
+.text-purple {
+  color: var(--brand-purple) !important;
+}
+
+.text-green {
+  color: var(--brand-green-darker) !important;
+}
+
+.badge--purple {
+  background: var(--brand-purple);
+  color: #fff;
+}
+
+.badge--green {
+  background: var(--brand-green-darker);
+  color: #fff;
+}
+
+.badge--orange {
+  background: var(--brand-orange-dark);
+  color: #fff;
 }
