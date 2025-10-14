@@ -92,9 +92,9 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          sidebarId: "docusaurusSidebar",
           position: "left",
-          label: "Documentation"
+          label: "Docusaurus"
         },
         {
           href: "https://github.com/ecosyste-ms/",
