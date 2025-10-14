@@ -115,6 +115,18 @@ const config: Config = {
           label: "Contributing"
         },
         {
+          type: "docSidebar",
+          sidebarId: "licensing",
+          position: "left",
+          label: "Licensing"
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "usage",
+          position: "left",
+          label: "Usage"
+        },
+        {
           href: "https://github.com/ecosyste-ms/",
           label: "GitHub",
           position: "right"
@@ -123,6 +135,12 @@ const config: Config = {
           href: "https://mastodon.social/@ecosystems",
           label: "Mastodon",
           position: "right"
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "about",
+          position: "right",
+          label: "About"
         }
       ]
     },
@@ -169,7 +187,7 @@ const config: Config = {
             },
             {
               label: "Contact",
-              href: "mailto:hello@ecosyste.ms"
+              href: "/docs/about/contact"
             }
           ]
         }
