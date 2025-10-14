@@ -92,9 +92,27 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "docusaurusSidebar",
+          sidebarId: "getstarted",
           position: "left",
-          label: "Docusaurus"
+          label: "Get Started"
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "services",
+          position: "left",
+          label: "Services"
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "guides",
+          position: "left",
+          label: "Guides"
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "contributing",
+          position: "left",
+          label: "Contributing"
         },
         {
           href: "https://github.com/ecosyste-ms/",
