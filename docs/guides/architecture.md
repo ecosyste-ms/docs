@@ -47,9 +47,9 @@ graph TD;
 		click dependency-parser "/docs/services/tools/dependency-parser"
 		click resolver "/docs/services/tools/resolver"
 
-		classDef indexes fill:#3AE668,stroke:#333,stroke-width:2px;
-		classDef data-services fill:#7774F1,stroke:#333,stroke-width:2px;
-		classDef tools fill:#FF7F7A,stroke:#333,stroke-width:2px;
+		classDef indexes fill:#3AE6684F,stroke:#333,stroke-width:2px;
+		classDef data-services fill:#7774F14F,stroke:#333,stroke-width:2px;
+		classDef tools fill:#FF7F7A4F,stroke:#333,stroke-width:2px;
 
 		class packages,advisories,repos data-services
 		class commits,issues,sponsors,timeline indexes
