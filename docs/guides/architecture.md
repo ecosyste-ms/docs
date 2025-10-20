@@ -3,6 +3,8 @@ sidebar_position: 2
 title: Architecture
 ---
 
+Ecosyste.ms is not a single service, but a set of microservices which interact to produce the various outputs. This diagram shows the most important data flows between the major components:
+
 ```mermaid
 graph TD;
 
@@ -73,3 +75,5 @@ graph TD;
     %%packages------->conda;
 
 ```
+
+Click on a component for more details.
