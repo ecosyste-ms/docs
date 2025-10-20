@@ -142,3 +142,25 @@ html[data-theme='dark'] {
   background: var(--brand-orange-dark);
   color: #fff;
 }
+
+/* ============================================================ */
+
+div.homepage-cards {
+  display: flex;
+  column-gap: 1em;
+}
+
+div.homepage-cards>div {
+  border: 1px solid lightgrey;
+  padding: 1em;
+  flex: 1 1 0;
+}
+
+div.homepage-cards>div>ul {
+  list-style: none;
+}
+
+div#get-started-links {
+  display: flex;
+  column-gap: 2em;
+}
