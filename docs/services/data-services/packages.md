@@ -7,5 +7,7 @@ Cross-registry package, version and dependency metadata.
 * **Repository**: [ecosyste-ms/packages](https://github.com/ecosyste-ms/packages)
 * **Languages**: Ruby
 * **Frameworks**: Rails
+* **API documentation**: [packages.ecosyste.ms/docs](https://packages.ecosyste.ms/docs/index.html)
+* **OpenAPI YAML**: [packages.ecosyste.ms/docs/api/v1/openapi.yaml](https://packages.ecosyste.ms/docs/api/v1/openapi.yaml)
 
-... more coming soon ...
+An open API service providing package, version and dependency metadata of many open source software ecosystems and registries.
