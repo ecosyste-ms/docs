@@ -22,11 +22,11 @@ Want to contribute to Ecosyste.ms? That's great! Here are a couple of guidelines
 
 ## Setup instructions
 
-You can find in-depth instructions to install the correct Ruby version, Postgres, and to set up the database in our [README](README.md#development).
+You can find in-depth instructions to install the correct Ruby version, Postgres, and to set up the database in the DEVELOPMENT.md file found in most repositories.
 
 ## Reporting a bug
 
-So you've found a bug, and want to help us fix it? Before filing a bug report, please double-check the bug hasn't already been reported. You can do so [on our issue tracker](https://github.com/ecosyste-ms/packages/issues?q=is%3Aissue+is%3Aopen+label%3Abug). If something hasn't been raised, you can go ahead and create a new issue with the following information:
+So you've found a bug, and want to help us fix it? Before filing a bug report, please double-check the bug hasn't already been reported. You can do so on the issue tracker for the relevant component. If something hasn't been raised, you can go ahead and create a new issue with the following information:
 
 * On which page did the error happen?
 * How can the error be reproduced?
@@ -40,7 +40,7 @@ It goes without saying that you're welcome to help investigate further and/or fi
 
 ### Finding an issue to work on
 
-We've got a few open issues and are always glad to get help on that front. You can view the list of issues [here](https://github.com/ecosyste-ms/packages/issues). Most of the issues are labelled, so you can use the labels to get an idea of which issue could be a good fit for you. (Here's [a good article](https://medium.freecodecamp.com/finding-your-first-open-source-project-or-bug-to-work-on-1712f651e5ba) on how to find your first bug to fix).
+We've got a few open issues and are always glad to get help on that front. You can view the lists of issues on GitHub. Most of the issues are labelled, so you can use the labels to get an idea of which issue could be a good fit for you. (Here's [a good article](https://medium.freecodecamp.com/finding-your-first-open-source-project-or-bug-to-work-on-1712f651e5ba) on how to find your first bug to fix).
 
 Before getting to work, take a look at the issue and at the conversation around it. Has someone already offered to work on the issue? Has someone been assigned to the issue? If so, you might want to check with them to see whether they're still actively working on it.
 
@@ -65,7 +65,7 @@ We've outlined the contribution workflow [here](#contribution-workflow). If you'
 - **help wanted**: Issues will be marked with this label by the maintainers if we'd like outside contributors to pitch in with code or opinions before we close them. These do not assume any skill level and are great opportunities for all members of our community to steer the direction of the project.
 - **invalid**: These are rare, and normally have been submitted in error.
 - **question**: Issues can be marked with this label by anybody who would like other contributors or maintainers to answer a specific question before an issue can be closed. These normally do not assume any skill level (although may sometimes require maintainers to have the final say on them) and are great opportunities for all members of our community to steer the direction of the project.
-- **security**: If you spot an issue related to security issues (e.g. invalid SSL certs, potential CSRF issues), mark it with this label. Don't forget to be a good OSS citizen and always report zero-day issues through a private channel to minimise impact to your fellow users! Check our [vulnerability disclosure policy](VULNERABILITY_DISCLOSURE_POLICY.md) for more information.
+- **security**: If you spot an issue related to security issues (e.g. invalid SSL certs, potential CSRF issues), mark it with this label. Don't forget to be a good OSS citizen and always report zero-day issues through a private channel to minimise impact to your fellow users! Check our [vulnerability disclosure policy](https://github.com/ecosyste-ms/.github/blob/main/SECURITY.md) for more information.
 - **wontfix**: This means that, after considering your issue in full, your issue is outside of the intended scope of the project and is not something we'd like to add to the codebase right now or in the future. These are used sparingly and are intended to be rare, and are never used without reasoned justification.
 
 ## Additional info
