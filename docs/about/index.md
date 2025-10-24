@@ -13,3 +13,9 @@ You can support us on [Open Collective](https://opencollective.com/ecosystems). 
 
 ### Work with us
 ecosyste.ms is an open source project developed and maintained on [GitHub](https://github.com/ecosyste-ms). The core team and broader community are supported by our [governance and technical steering committees](./governance.md). Our [charter](./charter) provides some context for collaborators to get a better understand of how we approach our work. 
+
+### Using ecosyste.ms for free
+Our code and data are licensed ([AGPL](https://www.gnu.org/licenses/agpl-3.0.html) and [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) respectively) to ensure that the community can use the services we provide, free of charge, if you contribute your work back to that same community.
+
+### Using ecosyste.ms at work
+If you're using ecosyste.ms in an environment where you cannot attribute and publish your work using a compatible licence we ofer less restrictive licences for a fee. [Get in touch](mailto:hello@ecosyste.ms) to find out more. 
