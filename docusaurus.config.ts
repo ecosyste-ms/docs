@@ -86,6 +86,7 @@ const config: Config = {
       logo: {
         alt: "ecosystems logo",
         src: "img/ecosystems-logo.svg",
+        srcDark: "img/ecosystems-logo-dark.svg",
         width: "150px",
         height: "30.5px"
       },
