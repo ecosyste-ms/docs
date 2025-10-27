@@ -313,6 +313,39 @@ html[data-theme='dark'] .plain-dropdown summary {
   content: "▶ ";
 }
 
+.pagination-nav__link {
+  border: 0;
+  background-color: var(--brand-grey-light);
+  color: var(--brand-black);
+}
+
+html[data-theme='dark'] .pagination-nav__link {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--brand-grey-light);
+}
+
+.pagination-nav__link:hover,
+.pagination-nav__link:active,
+.pagination-nav__link:focus {
+  box-shadow: 0px 7px 24px var(--brand-purple-light);
+  color: var(--brand-purple-dark);
+}
+
+html[data-theme='dark'] .pagination-nav__link:hover,
+html[data-theme='dark'] .pagination-nav__link:active,
+html[data-theme='dark'] .pagination-nav__link:focus {
+  box-shadow: none;
+  color: var(--brand-purple);
+}
+
+.pagination-nav__sublabel {
+  color: var(--brand-black);
+}
+
+html[data-theme='dark'] .pagination-nav__sublabel {
+  color: var(--brand-grey-light);
+}
+
 /* ============================================================ */
 
 div.homepage-cards {
