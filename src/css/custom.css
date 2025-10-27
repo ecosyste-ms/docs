@@ -203,6 +203,7 @@ article a {
 }
 
 /* Links – exclude internal hash links */
+.homepage a,
 .theme-doc-markdown a:not(.hash-link) {
   color: #1D1D28;
   text-decoration: none !important;
@@ -210,6 +211,9 @@ article a {
   transition: 250ms;
 }
 
+.homepage a:hover,
+.homepage a:active,
+.homepage a:focus,
 .theme-doc-markdown a:not(.hash-link):hover,
 .theme-doc-markdown a:not(.hash-link):active,
 .theme-doc-markdown a:not(.hash-link):focus {
@@ -218,6 +222,7 @@ article a {
 }
 
 /* Dark mode: tweak link + hover colours */
+html[data-theme='dark'] .homepage a,
 html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link) {
   color: #F5F5F5;
   /* light text colour */
@@ -225,6 +230,9 @@ html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link) {
   /* purple highlight for dark bg */
 }
 
+html[data-theme='dark'] .homepage a:hover,
+html[data-theme='dark'] .homepage a:active,
+html[data-theme='dark'] .homepage a:focus,
 html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):hover,
 html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):active,
 html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):focus {
@@ -335,6 +343,7 @@ html[data-theme='dark'] .pagination-nav__link:hover,
 html[data-theme='dark'] .pagination-nav__link:active,
 html[data-theme='dark'] .pagination-nav__link:focus {
   box-shadow: none;
+  box-shadow: inset 0px 3px 9px rgba(0, 0, 0, 0.25);
   color: var(--brand-purple);
 }
 
@@ -377,3 +386,5 @@ div#get-started-links {
   display: flex;
   column-gap: 2em;
 }
+
+.home-page {}
