@@ -89,6 +89,16 @@
 
   --ifm-hr-background-color: var(--brand-purple-light);
   --ifm-hr-height: 3px;
+
+  /* Left hand menu */
+  --ifm-menu-color-active: var(--brand-purple-dark);
+  --ifm-menu-color: var(--brand-black);
+  --ifm-menu-color-background-active: var(--brand-grey-light);
+  --ifm-menu-color-background-hover: var(--brand-grey-light);
+
+  /*Breadcrumb */
+  --ifm-breadcrumb-item-background-active: var(--brand-grey-light);
+  --ifm-breadcrumb-color-active: var(--brand-purple-dark);
 }
 
 /* Dark mode adjustments */
@@ -110,6 +120,16 @@ html[data-theme='dark'] {
   --ifm-link-hover-color: #e7e4ff;
 
   --ifm-hr-background-color: var(--brand-grey-dark);
+
+  /* Left hand menu */
+  --ifm-menu-color-active: var(--brand-white);
+  --ifm-menu-color: var(--brand-grey);
+  --ifm-menu-color-background-active: var(--brand-purple-dark);
+  --ifm-menu-color-background-hover: var(--brand-grey-dark);
+
+  /*Breadcrumb */
+  --ifm-breadcrumb-item-background-active: var(--brand-purple-dark);
+  --ifm-breadcrumb-color-active: var(--brand-white);
 }
 
 * {
@@ -247,6 +267,10 @@ html[data-theme='dark'] .footer--dark {
   color: var(--brand-black);
 }
 
+html[data-theme='dark'] .theme-doc-markdown details[data-variant="plain"] {
+  color: var(--brand-white);
+}
+
 .theme-doc-markdown details[data-variant="plain"]>summary {
   cursor: pointer;
   list-style: none;
@@ -255,6 +279,10 @@ html[data-theme='dark'] .footer--dark {
 
 .theme-doc-markdown details[data-variant="plain"]>summary::before {
   border-left-color: var(--brand-black);
+}
+
+html[data-theme='dark'] .theme-doc-markdown details[data-variant="plain"]>summary::before {
+  border-left-color: var(--brand-white);
 }
 
 .theme-doc-markdown details[data-variant="plain"] [class^="collapsibleContent_"] {
@@ -269,8 +297,12 @@ html[data-theme='dark'] .footer--dark {
 .plain-dropdown summary {
   font-weight: 600;
   cursor: pointer;
-  color: var(--ifm-color-primary);
+  color: var(--brand-black);
   list-style: none;
+}
+
+html[data-theme='dark'] .plain-dropdown summary {
+  color: var(--brand-white);
 }
 
 .plain-dropdown[open] summary::before {
