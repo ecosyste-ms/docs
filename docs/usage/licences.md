@@ -9,7 +9,7 @@ ecosyste.ms is licensed in such a way that both the data and code are free to us
 
 Our code is licensed using the [Affero General Public Licence](https://www.gnu.org/licenses/agpl-3.0.txt).
 
-You can use, modify, redistribute and place a warranty on code using AGPL, but ytou cannot sublicence or hold ecosyste.ms libable for damages. If using ecosyste.ms you must include the disclose ecosyste.ms as the source, include the AGPL licence, and disclose any significant changes made. 
+You can use, modify, redistribute and place a warranty on code using AGPL, but you cannot sublicence or hold ecosyste.ms libable for damages. If using ecosyste.ms you must include the disclose ecosyste.ms as the source, include the AGPL licence, and disclose any significant changes made. 
 
 Note that the above applies if your code is accessible from the web, for example if operating an instance of ecosyste.ms. 
 
