@@ -139,4 +139,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 
 ## Reporting problems
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at goverance@ecosyste.ms. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at governance@ecosyste.ms. All complaints will be reviewed and investigated promptly and fairly.
