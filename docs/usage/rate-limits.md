@@ -3,7 +3,15 @@ sidebar_position: 3
 title: Rate limits
 ---
 
-Rate limits apply to all requests to ensure the service is available for all users. Your rate limit currently depends which [pool](pools) your request is allocated to.
+Rate limits apply to all requests to ensure the service is responsive and available for all users. Your rate limit depends upon your [access method](authentication) and [paid service tier](commercial):
+
+## Default rate limits
+
+We operate a two-tier rate limiting system for unatuhenticated access. Read more about [unauthenticated access](authentication)
+
+## Commercial rate limits
+
+Commercial users working at scale can purchase increased rate limits from [our API plans pricing page](https://ecosyste.ms/pricing).
 
 ## Responses
 
