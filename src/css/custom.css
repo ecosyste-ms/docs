@@ -112,6 +112,11 @@ html[data-theme='dark'] {
   --ifm-hr-background-color: var(--brand-grey-dark);
 }
 
+* {
+  -webkit-font-smoothing: auto !important;
+  -moz-osx-font-smoothing: auto !important;
+}
+
 /* Subtle brand flavour */
 .hero--primary {
   color: var(--brand-black);
@@ -162,6 +167,49 @@ article a {
   text-decoration: underline;
 }
 
+/* lift and shift of our 'page-content' styles */
+
+/* Headings inside Markdown / doc content */
+.theme-doc-markdown h2,
+.theme-doc-markdown .h2,
+.theme-doc-markdown h3,
+.theme-doc-markdown .h3,
+.theme-doc-markdown h4,
+.theme-doc-markdown .h4,
+.theme-doc-markdown h5,
+.theme-doc-markdown .h5 {
+  margin-top: 2rem;
+  margin-bottom: 0.6667rem;
+}
+
+/* Links – exclude internal hash links */
+.theme-doc-markdown a:not(.hash-link) {
+  color: #1D1D28;
+  text-decoration: none !important;
+  box-shadow: inset 0 -0.3em 0 #45E56E;
+  transition: 250ms;
+}
+
+.theme-doc-markdown a:not(.hash-link):hover,
+.theme-doc-markdown a:not(.hash-link):active,
+.theme-doc-markdown a:not(.hash-link):focus {
+  box-shadow: inset 0 -1em 0 #45E56E;
+  color: #1D1D28;
+}
+
+/* Page title (usually <h1>) */
+.theme-doc-markdown h1,
+.theme-doc-markdown .page-content__title {
+  margin-bottom: 3rem;
+}
+
+/* Lead paragraph following the title */
+.theme-doc-markdown h1+p.lead,
+.theme-doc-markdown .page-content__title+.lead {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
 /* have to override this with selectors as the theme doesn't use the variables */
 .footer--dark {
   background-color: var(--brand-purple-dark);
@@ -179,7 +227,7 @@ html[data-theme='dark'] .footer--dark {
 
   border: 0;
   padding-left: 1rem;
-  margin: 1rem 0;
+  margin: 1rem 0 2rem;
   background: transparent;
   color: var(--brand-black);
 }
