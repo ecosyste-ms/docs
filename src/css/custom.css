@@ -171,6 +171,53 @@ html[data-theme='dark'] .footer--dark {
   background-color: var(--brand-black);
 }
 
+.theme-doc-markdown details[data-variant="plain"] {
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+
+  border: 0;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  background: transparent;
+  color: var(--brand-black);
+}
+
+.theme-doc-markdown details[data-variant="plain"]>summary {
+  cursor: pointer;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.theme-doc-markdown details[data-variant="plain"]>summary::before {
+  border-left-color: var(--brand-black);
+}
+
+.theme-doc-markdown details[data-variant="plain"] [class^="collapsibleContent_"] {
+  border: 0 !important;
+  padding-top: 0;
+}
+
+.theme-doc-markdown details[data-variant="plain"] ul:last-of-type {
+  margin: 0;
+}
+
+.plain-dropdown summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--ifm-color-primary);
+  list-style: none;
+}
+
+.plain-dropdown[open] summary::before {
+  content: "▼ ";
+}
+
+.plain-dropdown summary::before {
+  content: "▶ ";
+}
+
 /* ============================================================ */
 
 div.homepage-cards {
