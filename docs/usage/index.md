@@ -15,7 +15,7 @@ Our services are accessible to anonymous users. Users who identify themselves wi
 
 ## Licences
 
-Our code is licensed using the Affero General Public Licence. Our data is licenced using the Creative Commons Attribution Sharealike Licnces. [Read more about licences](./licences).
+Our code is licensed using the [Affero General Public Licence](https://www.gnu.org/licenses/agpl-3.0.txt). Our data is licenced using the [Creative Commons Attribution Sharealike Licence](https://creativecommons.org/licenses/by-sa/4.0/deed.en). [Read more about licences](./licences).
 
 ## Commercial use
 
