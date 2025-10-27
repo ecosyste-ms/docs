@@ -186,15 +186,30 @@ article a {
 .theme-doc-markdown a:not(.hash-link) {
   color: #1D1D28;
   text-decoration: none !important;
-  box-shadow: inset 0 -0.3em 0 #45E56E;
+  box-shadow: inset 0 -0.3em 0 var(--brand-green);
   transition: 250ms;
 }
 
 .theme-doc-markdown a:not(.hash-link):hover,
 .theme-doc-markdown a:not(.hash-link):active,
 .theme-doc-markdown a:not(.hash-link):focus {
-  box-shadow: inset 0 -1em 0 #45E56E;
+  box-shadow: inset 0 -1em 0 var(--brand-green);
   color: #1D1D28;
+}
+
+/* Dark mode: tweak link + hover colours */
+html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link) {
+  color: #F5F5F5;
+  /* light text colour */
+  box-shadow: inset 0 -0.3em 0 var(--brand-purple-dark);
+  /* purple highlight for dark bg */
+}
+
+html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):hover,
+html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):active,
+html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):focus {
+  box-shadow: inset 0 -1em 0 var(--brand-purple-dark);
+  color: #FFFFFF;
 }
 
 /* Page title (usually <h1>) */
