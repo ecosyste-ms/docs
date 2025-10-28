@@ -103,6 +103,7 @@
 
 /* Dark mode adjustments */
 html[data-theme='dark'] {
+  --ifm-background-color: var(--brand-black);
   --ifm-color-primary: #9d94ff;
   --ifm-color-primary-dark: #7c73f5;
   --ifm-color-primary-light: #cfcaff;
@@ -113,8 +114,7 @@ html[data-theme='dark'] {
 
   --ifm-heading-color: var(--brand-white);
 
-  --ifm-navbar-background-color: #15151f;
-  --ifm-footer-background-color: #15151f;
+  --ifm-navbar-background-color: color-mix(in srgb, var(--brand-grey-dark), black 50%);
 
   --ifm-link-color: #cfcaff;
   --ifm-link-hover-color: #e7e4ff;
@@ -259,7 +259,7 @@ html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):focus {
 }
 
 html[data-theme='dark'] .footer--dark {
-  background-color: var(--brand-black);
+  background-color: color-mix(in srgb, var(--brand-grey-dark), black 50%);
 }
 
 .theme-doc-markdown details[data-variant="plain"] {
