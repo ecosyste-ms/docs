@@ -64,6 +64,7 @@
   --ifm-line-height-base: var(--brand-line-height);
 
   /* Headings */
+  --ifm-heading-color: var(--brand-black);
   --ifm-heading-font-weight: 700;
   --ifm-h1-font-size: var(--brand-h1);
   --ifm-h2-font-size: var(--brand-h2);
@@ -85,10 +86,24 @@
   --ifm-button-font-weight: 600;
 
   --ifm-footer-background-color: var(--brand-purple-dark);
+
+  --ifm-hr-background-color: var(--brand-purple-light);
+  --ifm-hr-height: 3px;
+
+  /* Left hand menu */
+  --ifm-menu-color-active: var(--brand-purple-dark);
+  --ifm-menu-color: var(--brand-black);
+  --ifm-menu-color-background-active: var(--brand-grey-light);
+  --ifm-menu-color-background-hover: var(--brand-grey-light);
+
+  /*Breadcrumb */
+  --ifm-breadcrumb-item-background-active: var(--brand-grey-light);
+  --ifm-breadcrumb-color-active: var(--brand-purple-dark);
 }
 
 /* Dark mode adjustments */
 html[data-theme='dark'] {
+  --ifm-background-color: var(--brand-black);
   --ifm-color-primary: #9d94ff;
   --ifm-color-primary-dark: #7c73f5;
   --ifm-color-primary-light: #cfcaff;
@@ -97,11 +112,29 @@ html[data-theme='dark'] {
   --ifm-color-warning: #ffc4c0;
   --ifm-color-danger: #ff948f;
 
-  --ifm-navbar-background-color: #15151f;
-  --ifm-footer-background-color: #15151f;
+  --ifm-heading-color: var(--brand-white);
+
+  --ifm-navbar-background-color: color-mix(in srgb, var(--brand-grey-dark), black 50%);
 
   --ifm-link-color: #cfcaff;
   --ifm-link-hover-color: #e7e4ff;
+
+  --ifm-hr-background-color: var(--brand-grey-dark);
+
+  /* Left hand menu */
+  --ifm-menu-color-active: var(--brand-white);
+  --ifm-menu-color: var(--brand-grey);
+  --ifm-menu-color-background-active: var(--brand-purple-dark);
+  --ifm-menu-color-background-hover: var(--brand-grey-dark);
+
+  /*Breadcrumb */
+  --ifm-breadcrumb-item-background-active: var(--brand-purple-dark);
+  --ifm-breadcrumb-color-active: var(--brand-white);
+}
+
+* {
+  -webkit-font-smoothing: auto !important;
+  -moz-osx-font-smoothing: auto !important;
 }
 
 /* Subtle brand flavour */
@@ -118,6 +151,12 @@ html[data-theme='dark'] {
 .hero__subtitle {
   text-align: left;
 }
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
 
 /* Utilities editors can use in MDX */
 .text-purple {
@@ -143,24 +182,226 @@ html[data-theme='dark'] {
   color: #fff;
 }
 
-/* ============================================================ */
-
-div.homepage-cards {
-  display: flex;
-  column-gap: 1em;
+.markdown a,
+article a {
+  text-decoration: underline;
 }
 
-div.homepage-cards>div {
-  border: 1px solid lightgrey;
-  padding: 1em;
-  flex: 1 1 0;
+/* lift and shift of our 'page-content' styles */
+
+/* Headings inside Markdown / doc content */
+.theme-doc-markdown h2,
+.theme-doc-markdown .h2,
+.theme-doc-markdown h3,
+.theme-doc-markdown .h3,
+.theme-doc-markdown h4,
+.theme-doc-markdown .h4,
+.theme-doc-markdown h5,
+.theme-doc-markdown .h5 {
+  margin-top: 2rem;
+  margin-bottom: 0.6667rem;
 }
 
-div.homepage-cards>div>ul {
+/* Links – exclude internal hash links */
+.homepage a,
+.theme-doc-markdown a:not(.hash-link) {
+  color: #1D1D28;
+  text-decoration: none !important;
+  box-shadow: inset 0 -0.3em 0 var(--brand-green);
+  transition: 250ms;
+}
+
+.homepage a:hover,
+.homepage a:active,
+.homepage a:focus,
+.theme-doc-markdown a:not(.hash-link):hover,
+.theme-doc-markdown a:not(.hash-link):active,
+.theme-doc-markdown a:not(.hash-link):focus {
+  box-shadow: inset 0 -1em 0 var(--brand-green);
+  color: #1D1D28;
+}
+
+/* Dark mode: tweak link + hover colours */
+html[data-theme='dark'] .homepage a,
+html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link) {
+  color: #F5F5F5;
+  /* light text colour */
+  box-shadow: inset 0 -0.3em 0 var(--brand-purple-dark);
+  /* purple highlight for dark bg */
+}
+
+html[data-theme='dark'] .homepage a:hover,
+html[data-theme='dark'] .homepage a:active,
+html[data-theme='dark'] .homepage a:focus,
+html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):hover,
+html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):active,
+html[data-theme='dark'] .theme-doc-markdown a:not(.hash-link):focus {
+  box-shadow: inset 0 -1em 0 var(--brand-purple-dark);
+  color: #FFFFFF;
+}
+
+/* Page title (usually <h1>) */
+.theme-doc-markdown h1,
+.theme-doc-markdown .page-content__title {
+  margin-bottom: 3rem;
+}
+
+/* Lead paragraph following the title */
+.theme-doc-markdown h1+p.lead,
+.theme-doc-markdown .page-content__title+.lead {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+/* have to override this with selectors as the theme doesn't use the variables */
+.footer--dark {
+  background-color: var(--brand-purple-dark);
+}
+
+html[data-theme='dark'] .footer--dark {
+  background-color: color-mix(in srgb, var(--brand-grey-dark), black 50%);
+}
+
+.theme-doc-markdown details[data-variant="plain"] {
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+
+  border: 0;
+  padding-left: 1rem;
+  margin: 1rem 0 2rem;
+  background: transparent;
+  color: var(--brand-black);
+}
+
+html[data-theme='dark'] .theme-doc-markdown details[data-variant="plain"] {
+  color: var(--brand-white);
+}
+
+.theme-doc-markdown details[data-variant="plain"]>summary {
+  cursor: pointer;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.theme-doc-markdown details[data-variant="plain"]>summary::before {
+  border-left-color: var(--brand-black);
+}
+
+html[data-theme='dark'] .theme-doc-markdown details[data-variant="plain"]>summary::before {
+  border-left-color: var(--brand-white);
+}
+
+.theme-doc-markdown details[data-variant="plain"] [class^="collapsibleContent_"] {
+  border: 0 !important;
+  padding-top: 0;
+}
+
+.theme-doc-markdown details[data-variant="plain"] ul:last-of-type {
+  margin: 0;
+}
+
+.plain-dropdown summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--brand-black);
   list-style: none;
 }
 
-div#get-started-links {
-  display: flex;
-  column-gap: 2em;
+html[data-theme='dark'] .plain-dropdown summary {
+  color: var(--brand-white);
 }
+
+.plain-dropdown[open] summary::before {
+  content: "▼ ";
+}
+
+.plain-dropdown summary::before {
+  content: "▶ ";
+}
+
+.pagination-nav__link {
+  border: 0;
+  background-color: var(--brand-grey-light);
+  color: var(--brand-black);
+}
+
+html[data-theme='dark'] .pagination-nav__link {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--brand-grey-light);
+}
+
+.pagination-nav__link:hover,
+.pagination-nav__link:active,
+.pagination-nav__link:focus {
+  box-shadow: 0px 7px 24px var(--brand-purple-light);
+  color: var(--brand-purple-dark);
+}
+
+html[data-theme='dark'] .pagination-nav__link:hover,
+html[data-theme='dark'] .pagination-nav__link:active,
+html[data-theme='dark'] .pagination-nav__link:focus {
+  box-shadow: none;
+  box-shadow: inset 0px 3px 9px rgba(0, 0, 0, 0.25);
+  color: var(--brand-purple);
+}
+
+.pagination-nav__sublabel {
+  color: var(--brand-black);
+}
+
+html[data-theme='dark'] .pagination-nav__sublabel {
+  color: var(--brand-grey-light);
+}
+
+/* ============================================================ */
+
+.homepage-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* 1 column by default (mobile) */
+  gap: 1.5rem;
+}
+
+/* ≥576px (small tablets) → 2 columns */
+@media (min-width: 576px) {
+  .homepage-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ≥992px (desktops) → 4 columns */
+@media (min-width: 992px) {
+  .homepage-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Each card */
+.homepage-cards>div {
+  background-color: var(--brand-grey-light);
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.homepage-cards>div ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Dark mode */
+html[data-theme='dark'] .homepage-cards>div {
+  background-color: color-mix(in srgb, var(--brand-grey-dark), black 50%);
+}
+
+#get-started-links a {
+  margin-right: 1.5rem;
+}
+
+
+.home-page {}
