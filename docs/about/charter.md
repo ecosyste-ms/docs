@@ -10,7 +10,8 @@ The following statements describe how we generally approach our work:
 
 We’re confident enough to know we can change the world, and… 
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * We share a vision of the future we’re aiming for  
 * We tackle challenges others ignore or avoid
 </details>
@@ -19,7 +20,8 @@ We’re confident enough to know we can change the world, and…
 
 …realistic enough to know we can’t do it alone. 
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * Collaborate and support, rather than compete.  
 * Work to strengthen the entire ecosystem.   
 * Make our work available, accessible and affordable
@@ -29,7 +31,8 @@ We’re confident enough to know we can change the world, and…
 
 We’d rather build something you can use today than tell you what you should do tomorrow. 
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * Influence through action  
 * Ship in small increments and keep momentum.  
 * Keep shipping, even when imperfect.
@@ -39,7 +42,8 @@ We’d rather build something you can use today than tell you what you should do
 
 We check our assumptions, and work on the basis of facts rather than opinions. 
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * Run experiments, measure results, and adjust course.  
 * Talk openly about failures as well as successes.  
 * Change approach when evidence tells us to.
@@ -49,7 +53,8 @@ We check our assumptions, and work on the basis of facts rather than opinions.
 
 We take on big challenges by building small, practical solutions to achieve broader goals 
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * Tackle systemic problems  
 * Support domains others ignore  
 * Link our work, no matter how small, back to our vision
@@ -59,7 +64,8 @@ We take on big challenges by building small, practical solutions to achieve broa
 
 We’d rather have a positive impact than chase the latest trends. 
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * Build the simplest version, avoiding unnecessary complexity.  
 * Don’t chase novelty or trends for their own sake.  
 * Value legibility and maintainability.
@@ -69,7 +75,8 @@ We’d rather have a positive impact than chase the latest trends.
 
 We know where we're going, and are honest with ourselves about how we're doing. We aren’t led by investors, shareholders, or sponsors. 
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * Choose impact over volume or vanity metrics.  
 * Keep costs and scope under control.  
 * Say no to opportunities when they don’t align with our goals. 
@@ -79,7 +86,8 @@ We know where we're going, and are honest with ourselves about how we're doing. 
 
 We don’t sensationalise, dramatise or stigmatise. 
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * Talk about unpopular, controversial, or systemic issues, but  
 * We seek to understand and rationalise, rather than point the finger.  
 * We don’t use fear, uncertainty, or doubt, to drive change.
@@ -89,7 +97,8 @@ We don’t sensationalise, dramatise or stigmatise.
 
 We respect one another, our users, and our audience.
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * Trust people to act responsibly, and expect the same in return.  
 * Speak plainly and communicate honestly.  
 * Listen and reflect before speaking.
@@ -99,7 +108,8 @@ We respect one another, our users, and our audience.
 
 We believe in transparency and openness. 
 
-<details>
+<details data-variant="plain">
+<summary>How this shows up in our work</summary>
 * We use and contribute to openly licenced software and data.
 * We share our work broadly and publicly.
 * We do what we say we will.
