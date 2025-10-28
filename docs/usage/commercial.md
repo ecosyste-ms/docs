@@ -11,12 +11,12 @@ In order to maintain a responsive service, and manage cost, we also apple rate l
 
 ### Commercial licences 
 
-ecosyste.ms' code and data are licenced using copyleft licences (AGPL and CC-BY-SA respectively) that ensure that modifications and adaptations are contributed back to the community. [Read more about licences](./licences). We offer less restrictive licences on a commercial basis for users who wish to retain ownership of their adaptations and modifications. [Contact us to find out more](mailto:hello@ecosyste.ms)
+ecosyste.ms' code and data are licenced using copyleft licences (AGPL and CC-BY-SA respectively) that ensure that modifications and adaptations are contributed back to the community. [Read more about licences](./licences). We offer less restrictive licences on a commercial basis for users who wish to retain ownership of their adaptations and modifications. [Contact us to find out more](mailto:support@ecosyste.ms)
 
 ### Commercial support
 
-Our team provides support to users of our paid services on a best efforts basis. If you require additional support [contact us to disuss specific needs](mailto:hello@ecosyste.ms).
+Our team provides support to users of our paid services on a best efforts basis. If you require additional support [contact us to disuss specific needs](mailto:support@ecosyste.ms).
 
 ## Procurement, invoicing and vendor approval
 
-ecosyste.ms is a project of Open Source Collective, a non-profit organisation working to create a more sustianable open source ecosystem. Open Source Collective is a supplier and partner to most large, open source supporting organisations including Google, Microsoft, Meta, and GitHub. If you require an invoice, or would like us to register as a provider to your organisation [contact us](mailto:hello@ecosyste.ms).
+ecosyste.ms is a project of Open Source Collective, a non-profit organisation working to create a more sustianable open source ecosystem. Open Source Collective is a supplier and partner to most large, open source supporting organisations including Google, Microsoft, Meta, and GitHub. If you require an invoice, or would like us to register as a provider to your organisation [contact us](mailto:support@ecosyste.ms).

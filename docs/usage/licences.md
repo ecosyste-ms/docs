@@ -23,4 +23,4 @@ Importantly, the above applies if you include 'all or a substantial portion' of 
 
 ### Commercial licences
 
-We offer less restrictive licences on a commercial basis for users who wish to retain ownership of their adaptations and modifications. [Contact us to find out more](mailto:hello@ecosyste.ms)
+We offer less restrictive licences on a commercial basis for users who wish to retain ownership of their adaptations and modifications. [Contact us to find out more](mailto:support@ecosyste.ms)
