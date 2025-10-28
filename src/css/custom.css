@@ -399,6 +399,9 @@ html[data-theme='dark'] .homepage-cards>div {
   background-color: color-mix(in srgb, var(--brand-grey-dark), black 50%);
 }
 
+#get-started-links a {
+  margin-right: 1.5rem;
+}
 
 
 .home-page {}
