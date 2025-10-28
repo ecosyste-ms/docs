@@ -117,12 +117,6 @@ const config: Config = {
         },
         {
           type: "docSidebar",
-          sidebarId: "licensing",
-          position: "left",
-          label: "Licensing"
-        },
-        {
-          type: "docSidebar",
           sidebarId: "usage",
           position: "left",
           label: "Usage"
