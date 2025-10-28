@@ -357,34 +357,48 @@ html[data-theme='dark'] .pagination-nav__sublabel {
 
 /* ============================================================ */
 
-div.homepage-cards {
-  display: flex;
-  column-gap: 1em;
-
+.homepage-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* 1 column by default (mobile) */
+  gap: 1.5rem;
 }
 
-div.homepage-cards>div {
-  background-color: var(--brand-grey-light);
-  padding: 1.5rem;
-  flex: 1 1 0;
-  border-radius: 0.375rem;
-
-  ul {
-    padding-left: 0;
+/* ≥576px (small tablets) → 2 columns */
+@media (min-width: 576px) {
+  .homepage-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-html[data-theme='dark'] div.homepage-cards>div {
+/* ≥992px (desktops) → 4 columns */
+@media (min-width: 992px) {
+  .homepage-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Each card */
+.homepage-cards>div {
+  background-color: var(--brand-grey-light);
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.homepage-cards>div ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Dark mode */
+html[data-theme='dark'] .homepage-cards>div {
   background-color: color-mix(in srgb, var(--brand-grey-dark), black 50%);
 }
 
-div.homepage-cards>div>ul {
-  list-style: none;
-}
 
-div#get-started-links {
-  display: flex;
-  column-gap: 2em;
-}
 
 .home-page {}
