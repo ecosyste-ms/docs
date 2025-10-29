@@ -1,7 +1,8 @@
 ---
 ---
 
-Issue and pull request metadata for open source projects.
+
+35 million issues and 112 million pull requests across 11 million repositories
 
 * **URL**: [issues.ecosyste.ms](https://issues.ecosyste.ms)
 * **Repository**: [ecosyste-ms/issues](https://github.com/ecosyste-ms/issues)

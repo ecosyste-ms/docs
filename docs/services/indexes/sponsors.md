@@ -1,7 +1,7 @@
 ---
 ---
 
-Aggregates public data about GitHub Sponsors.
+35k maintainers and 155k sponsors on GitHub Sponsors
 
 * **URL**: [sponsors.ecosyste.ms](https://sponsors.ecosyste.ms)
 * **Repository**: [ecosyste-ms/sponsors](https://github.com/ecosyste-ms/sponsors)

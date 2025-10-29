@@ -1,7 +1,7 @@
 ---
 ---
 
-Commit metadata for open source projects.
+950 million commits across 6 million repositories
 
 * **URL**: [commits.ecosyste.ms](https://commits.ecosyste.ms)
 * **Repository**: [ecosyste-ms/commits](https://github.com/ecosyste-ms/commits)
