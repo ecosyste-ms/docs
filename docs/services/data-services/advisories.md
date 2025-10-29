@@ -1,7 +1,7 @@
 ---
 ---
 
-Security vulnerability metadata.
+Metadata for 24k security advisories across 12 languages
 
 * **URL**: [advisories.ecosyste.ms](https://advisories.ecosyste.ms)
 * **Repository**: [ecosyste-ms/advisories](https://github.com/ecosyste-ms/advisories)

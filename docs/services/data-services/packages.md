@@ -1,7 +1,7 @@
 ---
 ---
 
-Cross-registry package, version and dependency metadata.
+Metadata for 12.1m packages across 75 sources
 
 * **URL**: [packages.ecosyste.ms](https://packages.ecosyste.ms)
 * **Repository**: [ecosyste-ms/packages](https://github.com/ecosyste-ms/packages)
