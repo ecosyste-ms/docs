@@ -1,7 +1,7 @@
 ---
 ---
 
-Resolves dependency trees of packages across open source ecosystems.
+Resolve the full dependency tree for a package.
 
 * **URL**: [resolve.ecosyste.ms](https://resolve.ecosyste.ms)
 * **Repository**: [ecosyste-ms/resolve](https://github.com/ecosyste-ms/resolve)

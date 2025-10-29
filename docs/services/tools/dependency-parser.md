@@ -1,7 +1,7 @@
 ---
 ---
 
-Parses dependency metadata from manifest files across many open source software ecosystems.
+Resolve the full dependency tree for a repository.
 
 * **URL**: [parser.ecosyste.ms](https://parser.ecosyste.ms)
 * **Repository**: [ecosyste-ms/parser](https://github.com/ecosyste-ms/parser)
