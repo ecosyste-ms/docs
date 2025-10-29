@@ -1,7 +1,7 @@
 ---
 ---
 
-Source repository metadata for open source software.
+Metadata for 287m repositories across 1,952 sources
 
 * **URL**: [repos.ecosyste.ms](https://repos.ecosyste.ms)
 * **Repository**: [ecosyste-ms/repos](https://github.com/ecosyste-ms/repos)
