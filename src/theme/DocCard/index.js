@@ -30,7 +30,7 @@ function CardContainer({ className, href, children }) {
   return (
     <Link
       href={href}
-      className={clsx('card padding--lg', styles.cardContainer, className)}>
+      className={clsx('card card--purple padding--lg', styles.cardContainer, className)}>
       {children}
     </Link>
   );
@@ -39,7 +39,7 @@ function CardLayout({ className, href, icon, title, description }) {
   return (
     <CardContainer href={href} className={className}>
       <Heading
-        as="h2"
+        as="h3"
         className={clsx('text--truncate', styles.cardTitle)}
         title={title}>
         {icon} {title}
