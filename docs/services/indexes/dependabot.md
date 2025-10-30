@@ -12,3 +12,7 @@
 |**API documentation**|[dependabot.ecosyste.ms/docs](https://dependabot.ecosyste.ms/docs/index.html)|
 |**OpenAPI YAML**|[dependabot.ecosyste.ms/docs/api/v1/openapi.yaml](https://dependabot.ecosyste.ms/docs/api/v1/openapi.yaml)|
 
+## Use this service to...
+
+* ...find unresolved security issues across your dependencies
+* ...identify dependencies that might be slow to patch vulnerabilities

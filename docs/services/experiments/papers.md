@@ -12,3 +12,6 @@ Indexing and attributing open source software mentioned in academic papers
 |**API documentation**|[papers.ecosyste.ms/docs](https://papers.ecosyste.ms/docs/index.html)|
 |**OpenAPI YAML**|[papers.ecosyste.ms/docs/api/v1/openapi.yaml](https://papers.ecosyste.ms/docs/api/v1/openapi.yaml)|
 
+## Use this service to...
+
+* ...discover which research papers cite software you maintain.

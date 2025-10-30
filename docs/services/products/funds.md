@@ -10,3 +10,7 @@ Support your core open source dependencies
 |**Languages**|Ruby|
 |**Frameworks**|Rails|
 
+## Use this service to...
+
+* ...identify critical unfunded infrastructure in your stack
+* ...find who's financially supporting your dependencies
