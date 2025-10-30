@@ -405,3 +405,7 @@ html[data-theme='dark'] .homepage-cards>div {
 
 
 .home-page {}
+
+.theme-doc-markdown thead {
+  display: none
+}
