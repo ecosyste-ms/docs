@@ -13,3 +13,10 @@ Metadata for 287m repositories across 1,952 sources
 |**OpenAPI YAML**|[repos.ecosyste.ms/docs/api/v1/openapi.yaml](https://repos.ecosyste.ms/docs/api/v1/openapi.yaml)|
 
 An open API service providing repository metadata for many open source software ecosystems.
+
+## Use this service to...
+
+* ...discover which packages are built from a single repository
+* ...verify package contents match what's in the source repository
+* ...identify when security patches were actually committed
+* ...see which awesome lists your repositories are featured in
