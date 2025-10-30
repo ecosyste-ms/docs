@@ -403,6 +403,46 @@ html[data-theme='dark'] .homepage-cards>div {
   margin-right: 1.5rem;
 }
 
+/* Cards 
+  We need to override a few CSS rules that come as part of the componenet in Docusaurus
+*/
+.card--purple {
+  border: 0 !important;
+  box-shadow: none !important;
+  background-color: var(--brand-grey-light);
+}
+
+html[data-theme='dark'] .card--purple {
+  background-color: color-mix(in srgb, var(--brand-grey-dark), black 50%);
+}
+
+a.card--purple {
+  text-decoration: none;
+}
+
+a.card--purple:hover,
+a.card--purple:active,
+a.card--purple:focus {
+  box-shadow: 0px 7px 24px var(--brand-purple-light) !important;
+}
+
+html[data-theme='dark'] a.card--purple:hover,
+html[data-theme='dark'] a.card--purple:active,
+html[data-theme='dark'] a.card--purple:focus {
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.25) !important;
+}
+
+a.card--purple:hover [class*="cardTitle_"],
+a.card--purple:active [class*="cardTitle_"],
+a.card--purple:focus [class*="cardTitle_"] {
+  color: var(--brand-purple-dark);
+}
+
+html[data-theme='dark'] a.card--purple:hover [class*="cardTitle_"],
+html[data-theme='dark'] a.card--purple:active [class*="cardTitle_"],
+html[data-theme='dark'] a.card--purple:focus [class*="cardTitle_"] {
+  color: var(--brand-purple-light);
+}
 
 .home-page {}
 
