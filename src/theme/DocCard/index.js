@@ -72,13 +72,11 @@ function CardCategory({ item }) {
   );
 }
 function CardLink({ item }) {
-  const icon = isInternalUrl(item.href) ? '📄️' : '🔗';
   const doc = useDocById(item.docId ?? undefined);
   return (
     <CardLayout
       className={item.className}
       href={item.href}
-      icon={icon}
       title={item.label}
       description={item.description ?? doc?.description}
     />
