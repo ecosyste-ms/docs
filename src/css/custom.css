@@ -392,6 +392,21 @@ div.homepage-cards>div ul {
   list-style: none;
   padding-left: 0;
   margin: 0;
+  margin-bottom: 1rem;
+}
+
+.homepage-cards h3 {
+  font-size: 1.2rem;
+}
+
+.homepage-cards li {
+  margin-bottom: 0.5em;
+  font-size: 0.9rem;
+}
+
+.homepage-cards p:last-of-type {
+  margin-bottom: 0;
+  font-size: 0.8rem;
 }
 
 /* Dark mode */
