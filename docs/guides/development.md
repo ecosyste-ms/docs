@@ -55,6 +55,8 @@ services:
     environment:
       POSTGRES_USER: ecosystems
       POSTGRES_PASSWORD: password
+    ports:
+      - 5432:5432
 
   redis:
     image: redis:8
