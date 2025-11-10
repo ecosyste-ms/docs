@@ -16,10 +16,10 @@ An open API service providing package, version and dependency metadata of many o
 
 ## Use this service to...
 
-* ...find all packages that depend on a specific library to assess impact of breaking changes
-* ...identify unmaintained packages by checking last release date across ecosystems
-* ...find alternative packages by exploring reverse dependencies and similar patterns
-* ...find all packages published by an organization
-* ...compare package versions to understand what changed in an update
-* ...understand the merge rate of dependabot updates of your library
-* ...track if your breaking changes are causing users to stick with old versions
+* Find all packages that depend on a specific library to assess impact of breaking changes
+* Identify unmaintained packages by checking last release date across ecosystems
+* Find alternative packages by exploring reverse dependencies and similar patterns
+* Find all packages published by an organization
+* Compare package versions to understand what changed in an update
+* Understand the merge rate of dependabot updates of your library
+* Track if your breaking changes are causing users to stick with old versions
