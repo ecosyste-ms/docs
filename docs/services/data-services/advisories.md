@@ -24,4 +24,4 @@ Access unified vulnerability data from multiple sources including package regist
 
 ## Development 
 
-Further documentation is avaiaible at [ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/advisories/development.md)
+Further documentation is avaiaible at [https://github.com/ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/advisories/blob/main/DEVELOPMENT.md)

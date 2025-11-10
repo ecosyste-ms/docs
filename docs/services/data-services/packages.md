@@ -28,4 +28,4 @@ An open API service providing package, version and dependency metadata of many o
 
 ## Development 
 
-Further documentation is avaiaible at [ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/packages/development.md).
+Further documentation is avaiaible at [https://github.com/ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/packages/blob/main/DEVELOPMENT.md).

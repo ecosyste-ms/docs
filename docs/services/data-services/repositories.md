@@ -24,4 +24,4 @@ An open API service providing repository metadata for many open source software 
 
 ## Development 
 
-Further documentation is avaiaible at [ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/repositories/development.md)
+Further documentation is avaiaible at [https://github.com/ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/repositories/development.md)
