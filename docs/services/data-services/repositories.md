@@ -21,3 +21,7 @@ An open API service providing repository metadata for many open source software 
 * Verify package contents match what's in the source repository
 * Identify when security patches were actually committed
 * See which awesome lists your repositories are featured in
+
+## Development 
+
+Further documentation is avaiaible at [ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/repositories/development.md)

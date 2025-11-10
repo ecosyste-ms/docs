@@ -22,3 +22,6 @@ Access unified vulnerability data from multiple sources including package regist
 * Verify package contents match what's in the source repository
 * Identify when security patches were actually committed
 
+## Development 
+
+Further documentation is avaiaible at [ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/advisories/development.md)
