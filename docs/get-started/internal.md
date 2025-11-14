@@ -1,6 +1,7 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 title: Internal team
+description: References for members of the ecosyste.ms team.
 ---
 
 ## Getting set up

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: New starters
+description: Joining the ecosyste.ms team? Start here.
 ---
 
 ## Joining the community

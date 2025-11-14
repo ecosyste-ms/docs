@@ -1,5 +1,6 @@
 ---
 title: Command line
+description: Access ecosyste.ms data from the command line.
 ---
 
 You can access ecosyste.ms data from the command line using our experimental CLI tool.
