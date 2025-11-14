@@ -2,5 +2,7 @@
 sidebar_position: 1
 title: Guides
 ---
+import DocCardList from '@theme/DocCardList';
+import { useCurrentSidebarSiblings } from '@docusaurus/plugin-content-docs/client';
 
-... coming soon ...
+<DocCardList items={useCurrentSidebarSiblings().filter((item) => (item.label != frontMatter.title))} />
