@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Your first API call
+description: A walk through how to make your first call to the ecosyste.ms API.
 ---
 
 Ecosyste.ms services are designed to provide standardised data across a wide range of open source ecosystems; different languages, packaging systems, and so on. The APIs are designed to give you the information you want as easily as possible.

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Local development
+description: Setting up everything you need installed to work on ecosyste.ms code.
 ---
 
 ## Requirements
