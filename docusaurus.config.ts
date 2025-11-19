@@ -153,6 +153,10 @@ const config: Config = {
             {
               label: "Getting Started",
               to: "/docs/"
+            },
+            {
+              label: "Glossary",
+              to: "/docs/guides/glossary"
             }
           ]
         },
