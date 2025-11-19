@@ -187,6 +187,10 @@ article a {
   text-decoration: underline;
 }
 
+hr {
+  opacity: 0.25;
+}
+
 /* lift and shift of our 'page-content' styles */
 
 /* Headings inside Markdown / doc content */
@@ -321,9 +325,16 @@ html[data-theme='dark'] .plain-dropdown summary {
   content: "▶ ";
 }
 
+.pagination-nav {
+  border-top: 3px solid var(--brand-grey-light);
+}
+
+html[data-theme='dark'] .pagination-nav {
+  border-top: 3px solid var(--brand-grey-dark);
+}
+
 .pagination-nav__link {
   border: 0;
-  background-color: var(--brand-grey-light);
   color: var(--brand-black);
 }
 
@@ -335,7 +346,6 @@ html[data-theme='dark'] .pagination-nav__link {
 .pagination-nav__link:hover,
 .pagination-nav__link:active,
 .pagination-nav__link:focus {
-  box-shadow: 0px 7px 24px var(--brand-purple-light);
   color: var(--brand-purple-dark);
 }
 
@@ -429,6 +439,10 @@ html[data-theme='dark'] .homepage-cards>div {
 
 html[data-theme='dark'] .card--purple {
   background-color: color-mix(in srgb, var(--brand-grey-dark), black 50%);
+}
+
+.card>h3 {
+  margin-top: 0;
 }
 
 a.card--purple {
