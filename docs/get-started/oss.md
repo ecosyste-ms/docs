@@ -10,7 +10,7 @@ Open source developers and researchers use ecosyste.ms to work with the most com
 
 * [Make your first API call](/docs/guides/first-api-call)
 * [Licenses](/docs/usage/licences)
-* [Glossary](/docs/glossary)
+* [Glossary](/docs/guides/glossary)
 
 ## Usage limits
 

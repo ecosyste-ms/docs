@@ -9,7 +9,7 @@ Organisations rely on ecosyste.ms to power enterprise applications, support secu
 ## Using the data
 
 * [Make your first API call](/docs/guides/first-api-call)
-* [Glossary](/docs/glossary)
+* [Glossary](/docs/guides/glossary)
 
 ## Pricing & licensing
 

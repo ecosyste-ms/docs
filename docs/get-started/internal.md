@@ -14,4 +14,4 @@ ecosyste.ms is built and maintained by a distributed team working in the open. T
 ## Understanding the system
 
 * [Architecture](/docs/guides/architecture)
-* [Glossary](/docs/glossary)
+* [Glossary](/docs/guides/glossary)
