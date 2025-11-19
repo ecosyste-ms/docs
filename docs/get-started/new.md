@@ -14,3 +14,4 @@ If you are joining the team or contributing for the first time, start here. This
 
 * [Local development](/docs/guides/development)
 * [Contributing guide](/docs/contributing)
+* [Glossary](/docs/glossary)

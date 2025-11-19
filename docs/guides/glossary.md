@@ -1,8 +1,9 @@
-# Glossary
-
+---
+sidebar_position: 3
+title: Glossary
+description: A reference of terms used across the ecosyste.ms platform and documentation.
+---
 A reference of terms used across the ecosyste.ms platform and documentation.
-
-## Terms
 
 ### Advisory
 
