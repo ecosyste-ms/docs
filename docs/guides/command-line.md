@@ -1,4 +1,5 @@
 ---
+sidebar_position: 6
 title: Command line
 description: Access ecosyste.ms data from the command line.
 ---
