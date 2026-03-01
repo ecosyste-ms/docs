@@ -1,7 +1,7 @@
 ---
 ---
 
-Metadata for 12.1m packages across 75 sources
+Metadata for 12.1m <a href="/docs/guides/glossary#package" class="definition">packages</a> across 75 <a href="/docs/guides/glossary#source" class="definition">sources</a>
 
 |||
 |-|-|
@@ -12,7 +12,7 @@ Metadata for 12.1m packages across 75 sources
 |**API documentation**|[packages.ecosyste.ms/docs](https://packages.ecosyste.ms/docs/index.html)|
 |**OpenAPI YAML**|[packages.ecosyste.ms/docs/api/v1/openapi.yaml](https://packages.ecosyste.ms/docs/api/v1/openapi.yaml)|
 
-An open API service providing package, version and dependency metadata of many open source software ecosystems and registries.
+An open API service providing package, version and dependency metadata of many open source software <a href="/docs/guides/glossary#ecosystem" class="definition">ecosystems</a> and <a href="/docs/guides/glossary#registry" class="registry">registries</a>.
 
 ## Use this service to...
 
@@ -26,6 +26,6 @@ An open API service providing package, version and dependency metadata of many o
 * Understand the merge rate of dependabot updates of your library
 * Track if your breaking changes are causing users to stick with old versions
 
-## Development 
+## Development
 
 Further documentation is avaiaible at [https://github.com/ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/packages/blob/main/DEVELOPMENT.md).
