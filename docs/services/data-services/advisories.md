@@ -1,7 +1,7 @@
 ---
 ---
 
-Metadata for 24k security advisories across 12 languages
+Metadata for 24k security <a href="/docs/guides/glossary#advisory" class="definition">advisories</a> across 12 languages
 
 |||
 |-|-|
@@ -22,6 +22,6 @@ Access unified vulnerability data from multiple sources including package regist
 * Verify package contents match what's in the source repository
 * Identify when security patches were actually committed
 
-## Development 
+## Development
 
 Further documentation is avaiaible at [https://github.com/ecosyste-ms/packages/development.md](https://github.com/ecosyste-ms/advisories/blob/main/DEVELOPMENT.md)
