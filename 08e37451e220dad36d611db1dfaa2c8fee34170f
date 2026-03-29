@@ -1,0 +1,23 @@
+package.json
+  b04d4abd6e7c1d98 47-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "08e37451e220dad36d611db1dfaa2c8fee34170f",
+  "prompts": {
+    "b04d4abd6e7c1d98": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a774c2c5-e6ab-4109-9fa6-f15eac6d1aab",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt <andrewnez@gmail.com>",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 0,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  }
+}
