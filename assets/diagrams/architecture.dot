@@ -1,0 +1,55 @@
+digraph architecture {
+  graph [
+    bgcolor="transparent"
+    fontname="Inter"
+    layout="neato"
+    outputorder="edgesfirst"
+    pad="0.08"
+    splines="spline"
+  ]
+
+  node [
+    color="#333333"
+    fontsize="12"
+    fontname="Inter"
+    margin="0.13,0.08"
+    penwidth="1.5"
+    pin="true"
+    shape="box"
+    style="filled"
+    target="_top"
+  ]
+
+  edge [
+    color="#4C4C61"
+    arrowsize="0.7"
+    penwidth="1.15"
+  ]
+
+  packages [fillcolor="#DCDCFF", pos="260,310!", URL="/docs/services/data-services/packages/"]
+  advisories [fillcolor="#DCDCFF", pos="100,220!", URL="/docs/services/data-services/advisories/"]
+  repos [fillcolor="#DCDCFF", pos="400,140!", URL="/docs/services/data-services/repositories/"]
+
+  commits [fillcolor="#D9F9E3", pos="485,50!", URL="/docs/services/indexes/commits/"]
+  issues [fillcolor="#D9F9E3", pos="365,50!", URL="/docs/services/indexes/issues/"]
+  sponsors [fillcolor="#D9F9E3", pos="440,220!", URL="/docs/services/indexes/sponsors/"]
+  timeline [fillcolor="#D9F9E3", pos="600,50!", URL="/docs/services/indexes/timeline/"]
+
+  archives [fillcolor="#FFE0DF", pos="240,50!", URL="/docs/services/tools/archives/"]
+  dependency_parser [fillcolor="#FFE0DF", label="dependency parser", pos="80,50!", URL="/docs/services/tools/dependency-parser/"]
+  resolver [fillcolor="#FFE0DF", pos="260,390!", URL="/docs/services/tools/resolver/"]
+
+  advisories -> packages
+  packages -> advisories
+  packages -> repos
+  packages -> archives
+  repos -> dependency_parser
+  repos -> archives
+  repos -> issues
+  issues -> repos
+  repos -> commits
+  commits -> repos
+  repos -> timeline
+  sponsors -> repos
+  resolver -> packages
+}

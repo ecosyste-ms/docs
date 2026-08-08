@@ -1,0 +1,69 @@
+baseURL: https://docs.ecosyste.ms/
+locale: en-GB
+title: ecosyste.ms Documentation
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+enableRobotsTXT: true
+
+menu:
+  main:
+    - name: Get Started
+      pageRef: /docs
+      weight: 1
+    - name: Services
+      pageRef: /docs/services
+      weight: 2
+    - name: Guides
+      pageRef: /docs/guides
+      weight: 3
+    - name: Contributing
+      pageRef: /docs/contributing
+      weight: 4
+    - name: Usage
+      pageRef: /docs/usage
+      weight: 5
+    - name: GitHub
+      url: https://github.com/ecosyste-ms/
+      weight: 6
+    - name: Mastodon
+      url: https://mastodon.social/@ecosystems
+      weight: 7
+    - name: About
+      pageRef: /docs/about
+      weight: 8
+    - name: Theme
+      weight: 9
+      params:
+        type: theme-toggle
+
+params:
+  description: Open source intelligence for your project
+  search:
+    enable: false
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: img/ecosystems-logo.svg
+      dark: img/ecosystems-logo-dark.svg
+      width: 150
+      height: 31
+    width: wide
+  page:
+    width: wide
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+    width: wide
+  editURL:
+    enable: false
