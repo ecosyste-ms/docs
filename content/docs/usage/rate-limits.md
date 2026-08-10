@@ -3,11 +3,11 @@ weight: 1
 title: Rate limits
 ---
 
-Rate limits apply to all requests to ensure the service is responsive and available for all users. Your rate limit depends upon your [access method](authentication) and [paid service tier](commercial):
+Rate limits apply to all requests to ensure the service is responsive and available for all users. Your rate limit depends upon your [access method](/docs/usage/authentication/) and [paid service tier](/docs/usage/commercial/):
 
 ## Default rate limits
 
-We operate a two-tier rate limiting system for unatuhenticated access. Read more about [unauthenticated access](authentication)
+We operate a two-tier rate limiting system for unatuhenticated access. Read more about [unauthenticated access](/docs/usage/authentication/)
 
 ## Commercial rate limits
 

@@ -34,6 +34,8 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
         run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Test internal links
+        run: ruby test/site_test.rb
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:

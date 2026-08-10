@@ -211,4 +211,4 @@ As you can see, this has given us back a list of manifests, each of which is eff
 
 There's a huge amount of data about all the open source software ecosystems in the various APIs. Take a look at our detailed [API documentation](https://ecosyste.ms/api) for more, and explore the different available services. You can click the JSON link on most pages, which will take you to the API endpoint for the data used to create the page.
 
-If you have any problems or questions, please ask in one of the [community](https://docs.ecosyste.ms/docs/about/community) spaces. We look forward to seeing you there!
+If you have any problems or questions, please [contact us](/docs/about/contact/). We look forward to hearing from you!

@@ -25,3 +25,5 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
         run: hugo --minify
+      - name: Test internal links
+        run: ruby test/site_test.rb

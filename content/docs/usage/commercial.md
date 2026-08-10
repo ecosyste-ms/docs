@@ -7,11 +7,11 @@ ecosyste.ms is a set of free services and tools for developers, researchers and 
 
 ### Increased rate limits
 
-In order to maintain a responsive service, and manage cost, we also apple rate limits to users. [Read more about rate-limits](./rate-limits). Commercial users working at scale can purchase increased rate limits from [our API plans pricing page](https://ecosyste.ms/pricing).
+In order to maintain a responsive service, and manage cost, we also apple rate limits to users. [Read more about rate-limits](/docs/usage/rate-limits/). Commercial users working at scale can purchase increased rate limits from [our API plans pricing page](https://ecosyste.ms/pricing).
 
 ### Commercial licences 
 
-ecosyste.ms' code and data are licenced using copyleft licences (AGPL and CC-BY-SA respectively) that ensure that modifications and adaptations are contributed back to the community. [Read more about licences](./licences). We offer less restrictive licences on a commercial basis for users who wish to retain ownership of their adaptations and modifications. [Contact us to find out more](mailto:support@ecosyste.ms)
+ecosyste.ms' code and data are licenced using copyleft licences (AGPL and CC-BY-SA respectively) that ensure that modifications and adaptations are contributed back to the community. [Read more about licences](/docs/usage/licences/). We offer less restrictive licences on a commercial basis for users who wish to retain ownership of their adaptations and modifications. [Contact us to find out more](mailto:support@ecosyste.ms)
 
 ### Commercial support
 
