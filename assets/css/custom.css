@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --es-purple: #7878ef;
+  --es-purple-light: #bbbbff;
+  --es-purple-dark: #5c5ccf;
+  --es-orange: #ff807d;
+  --es-orange-light: #febdb9;
+  --es-orange-dark: #de5858;
+  --es-green: #45e56e;
+  --es-green-light: #87f5aa;
+  --es-green-dark: #2eaf6b;
+  --es-green-darker: #189654;
+  --es-black: #1d1d28;
+  --es-white: #ffffff;
+  --es-grey-light: #f5f5ff;
+  --es-grey: #dcdce0;
+  --es-grey-dark: #4c4c61;
+  --es-grey-cold: #f0f0f0;
+
+  --primary-hue: 240deg;
+  --primary-saturation: 79%;
+  --primary-lightness: 70%;
+  --hx-default-sans-font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  color: var(--es-black);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  line-height: 1.3334;
+}
+
+.content {
+  font-family: inherit;
+}
+
+.content h1 {
+  font-size: 2.9375rem;
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 3rem;
+}
+
+.content h2 {
+  font-size: 2.1875rem;
+  font-weight: 900;
+  line-height: 1.25;
+  margin-bottom: 0.6667rem;
+  margin-top: 2rem;
+}
+
+.content h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.6667rem;
+  margin-top: 2rem;
+}
+
+.content h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.6667rem;
+  margin-top: 2rem;
+}
+
+.content a:not(.hextra-card):not([class*="hextra-"]):not(.subheading-anchor) {
+  box-shadow: inset 0 -0.3em 0 var(--es-green);
+  color: var(--es-black);
+  text-decoration: none;
+  transition: 250ms;
+}
+
+.content a:not(.hextra-card):not([class*="hextra-"]):not(.subheading-anchor):hover,
+.content a:not(.hextra-card):not([class*="hextra-"]):not(.subheading-anchor):active,
+.content a:not(.hextra-card):not([class*="hextra-"]):not(.subheading-anchor):focus {
+  box-shadow: inset 0 -1em 0 var(--es-green);
+  color: var(--es-black);
+}
+
+.content hr {
+  background: var(--es-purple-light);
+  border: 0;
+  height: 3px;
+  opacity: 0.35;
+}
+
+.hextra-nav-container-blur {
+  border-bottom: 1px solid var(--es-grey);
+}
+
+.hextra-nav-container a {
+  font-weight: 700;
+}
+
+.hextra-sidebar-container {
+  font-size: 1rem;
+}
+
+.hextra-sidebar-container a:hover,
+.hextra-sidebar-active-item {
+  color: var(--es-purple-dark);
+}
+
+.hextra-card {
+  background: var(--es-grey-light);
+  border: 0;
+  box-shadow: none;
+}
+
+.hextra-card:hover,
+.hextra-card:active,
+.hextra-card:focus {
+  border: 0;
+  box-shadow: 0 7px 24px var(--es-purple-light);
+}
+
+.content details {
+  border-color: var(--es-grey);
+}
+
+.content details[data-variant="plain"] {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0 0 0 1rem;
+}
+
+.content details[data-variant="plain"] summary {
+  color: var(--es-black);
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.architecture-diagram {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.architecture-diagram svg {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 52rem;
+}
+
+.ecosystems-footer {
+  background: var(--es-purple-dark);
+  color: var(--es-white);
+  margin-top: 3rem;
+}
+
+.ecosystems-footer-inner {
+  margin: 0 auto;
+  max-width: 90rem;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.ecosystems-footer-main {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(15rem, 1.5fr) minmax(0, 2fr);
+}
+
+.ecosystems-footer-brand img {
+  height: auto;
+  width: 150px;
+}
+
+.ecosystems-footer-groups {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.ecosystems-footer-group h2 {
+  color: var(--es-white);
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.9rem;
+  text-transform: uppercase;
+}
+
+.ecosystems-footer-group a {
+  color: var(--es-white);
+  display: block;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.ecosystems-footer-group a + a {
+  margin-top: 0.55rem;
+}
+
+.ecosystems-footer-group a:hover,
+.ecosystems-footer-group a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.ecosystems-footer-copyright {
+  border-top: 1px solid rgb(255 255 255 / 22%);
+  color: var(--es-grey-light);
+  font-size: 0.75rem;
+  margin: 2.5rem 0 0;
+  padding-top: 1.25rem;
+}
+
+html.dark body {
+  color: var(--es-grey-light);
+}
+
+html.dark .content a:not(.hextra-card):not([class*="hextra-"]):not(.subheading-anchor) {
+  box-shadow: inset 0 -0.3em 0 var(--es-purple-dark);
+  color: var(--es-grey-light);
+}
+
+html.dark .content a:not(.hextra-card):not([class*="hextra-"]):not(.subheading-anchor):hover,
+html.dark .content a:not(.hextra-card):not([class*="hextra-"]):not(.subheading-anchor):active,
+html.dark .content a:not(.hextra-card):not([class*="hextra-"]):not(.subheading-anchor):focus {
+  box-shadow: inset 0 -1em 0 var(--es-purple-dark);
+  color: var(--es-white);
+}
+
+html.dark .hextra-card {
+  background: color-mix(in srgb, var(--es-grey-dark), black 50%);
+}
+
+html.dark .content details[data-variant="plain"] summary {
+  color: var(--es-white);
+}
+
+html.dark .ecosystems-footer {
+  background: color-mix(in srgb, var(--es-grey-dark), black 50%);
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  .content h1 {
+    font-size: 2.25rem;
+  }
+
+  .content h2 {
+    font-size: 1.75rem;
+  }
+
+  .ecosystems-footer-main,
+  .ecosystems-footer-groups {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .ecosystems-footer-main {
+    gap: 2rem;
+  }
+
+  .ecosystems-footer-groups {
+    gap: 1.5rem;
+  }
+}
+
+/* Preserve the existing documentation homepage layout. */
+.homepage {
+  margin: 0 auto;
+  max-width: 76rem;
+  padding: 3rem 0 2rem;
+  width: 100%;
+}
+
+.homepage h1 {
+  font-size: 2.9375rem;
+  font-weight: 900;
+  line-height: 1.25;
+  margin: 0 0 3rem;
+}
+
+.homepage h2 {
+  font-size: 2.1875rem;
+  font-weight: 900;
+  line-height: 1.25;
+  margin: 2rem 0 0.6667rem;
+}
+
+.homepage h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 2rem 0 0.6667rem;
+}
+
+.homepage > p {
+  margin: 0 0 1rem;
+}
+
+.homepage a {
+  box-shadow: inset 0 -0.3em 0 var(--es-green);
+  color: var(--es-black);
+  text-decoration: none;
+  transition: box-shadow 250ms ease;
+}
+
+.homepage a:hover,
+.homepage a:active,
+.homepage a:focus-visible {
+  box-shadow: inset 0 -1em 0 var(--es-green);
+  color: var(--es-black);
+}
+
+.homepage hr {
+  background: var(--es-purple-light);
+  border: 0;
+  height: 3px;
+  margin: 2rem 0;
+  opacity: 0.25;
+}
+
+#get-started-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  margin: 1rem 0;
+}
+
+.homepage-cards {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.homepage-cards > div {
+  background: var(--es-grey-light);
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.homepage-cards h3 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.homepage-cards ul {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.homepage-cards li {
+  font-size: 0.9rem;
+  margin-bottom: 0.5em;
+}
+
+.homepage-cards p:last-of-type {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+html.dark .homepage a {
+  box-shadow: inset 0 -0.3em 0 var(--es-purple-dark);
+  color: var(--es-grey-light);
+}
+
+html.dark .homepage a:hover,
+html.dark .homepage a:active,
+html.dark .homepage a:focus-visible {
+  box-shadow: inset 0 -1em 0 var(--es-purple-dark);
+  color: var(--es-white);
+}
+
+html.dark .homepage-cards > div {
+  background: color-mix(in srgb, var(--es-grey-dark), black 50%);
+}
+
+@media (min-width: 576px) {
+  .homepage-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  .homepage-cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575px) {
+  .homepage {
+    padding-top: 2rem;
+  }
+
+  .homepage h1 {
+    font-size: 2.25rem;
+  }
+
+  .homepage h2 {
+    font-size: 1.75rem;
+  }
+}

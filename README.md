@@ -1,25 +1,24 @@
-# Website
+# ecosyste.ms documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+The ecosyste.ms documentation site is built with the
+[Hextra](https://github.com/imfing/hextra) theme and the visual styles from the
+[ecosyste.ms style guide](https://ecosyste.ms/styleguide).
 
-### Installation
+## Local development
 
-```
-$ npm install
-```
+Install [Hugo](https://gohugo.io/) (extended, v0.164 or later) and Go — Hugo
+modules fetch the Hextra theme via `go`.
 
-### Local Development
-
-```
-$ npm run start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ npm run build
+```bash
+hugo server
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Open <http://localhost:1313>.
+
+## Build
+
+```bash
+hugo --minify
+```
+
+The generated site is written to `public/`.

@@ -1,0 +1,5 @@
+{{- with resources.Get "img/architecture.svg" -}}
+  <figure class="architecture-diagram">
+    {{- .Content | safeHTML -}}
+  </figure>
+{{- end -}}

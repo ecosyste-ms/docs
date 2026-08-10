@@ -1,0 +1,31 @@
+<footer class="hextra-footer ecosystems-footer">
+  <div class="ecosystems-footer-inner">
+    <div class="ecosystems-footer-main">
+      <div class="ecosystems-footer-brand">
+        <a href="{{ "/" | relURL }}">
+          <img src="{{ "img/ecosystems-logo-dark.svg" | relURL }}" alt="ecosyste.ms" width="150" height="31" />
+        </a>
+      </div>
+
+      <nav class="ecosystems-footer-groups" aria-label="Footer">
+        <div class="ecosystems-footer-group">
+          <h2>Docs</h2>
+          <a href="{{ "docs/" | relURL }}">Getting Started</a>
+          <a href="{{ "docs/guides/glossary/" | relURL }}">Glossary</a>
+        </div>
+        <div class="ecosystems-footer-group">
+          <h2>Community</h2>
+          <a href="https://github.com/ecosyste-ms/">GitHub</a>
+          <a href="https://mastodon.social/@ecosystems">Mastodon</a>
+          <a href="https://opencollective.com/ecosystems">OpenCollective</a>
+        </div>
+        <div class="ecosystems-footer-group">
+          <h2>More</h2>
+          <a href="https://ecosyste.ms/">Main website</a>
+          <a href="{{ "docs/about/contact/" | relURL }}">Contact</a>
+        </div>
+      </nav>
+    </div>
+    <p class="ecosystems-footer-copyright">Copyright © {{ now.Year }} ecosyste.ms.</p>
+  </div>
+</footer>
