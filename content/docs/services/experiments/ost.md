@@ -1,4 +1,5 @@
 ---
+title: OST
 ---
 
 A curated list of technology projects protecting and sustaining our climate and environment

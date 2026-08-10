@@ -1,4 +1,5 @@
 ---
+title: Advisories
 ---
 
 Metadata for 24k security advisories across 12 languages

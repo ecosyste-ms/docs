@@ -1,4 +1,5 @@
 ---
+title: Ruby
 ---
 
 A summary of data about the Ruby ecosystem

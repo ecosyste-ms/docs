@@ -1,4 +1,5 @@
 ---
+title: SBOM Parser
 ---
 
 Parse and convert between SBOM file formats.

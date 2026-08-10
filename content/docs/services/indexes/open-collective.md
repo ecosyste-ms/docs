@@ -1,4 +1,5 @@
 ---
+title: Open Collective
 ---
 
 $48m in open source grants, donations, and sponsorships from Open Collective

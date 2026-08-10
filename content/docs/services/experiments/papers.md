@@ -1,4 +1,5 @@
 ---
+title: Papers
 ---
 
 Indexing and attributing open source software mentioned in academic papers

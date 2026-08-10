@@ -1,4 +1,5 @@
 ---
+title: Commits
 ---
 
 950 million commits across 6 million repositories

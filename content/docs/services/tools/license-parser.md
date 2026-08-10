@@ -1,4 +1,5 @@
 ---
+title: License Parser
 ---
 
 Extract license metadata from a package or repository.

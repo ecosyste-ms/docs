@@ -1,4 +1,5 @@
 ---
+title: Summary
 ---
 
 Produce an overview of a list of open source projects.

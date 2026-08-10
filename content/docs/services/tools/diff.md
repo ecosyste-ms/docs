@@ -1,4 +1,5 @@
 ---
+title: Diff
 ---
 
 Compare the contents of two packages or repositories.

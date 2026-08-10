@@ -1,4 +1,5 @@
 ---
+title: Dependency Parser
 ---
 
 Resolve the full dependency tree for a repository.

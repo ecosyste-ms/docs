@@ -1,4 +1,5 @@
 ---
+title: Sponsors
 ---
 
 35k maintainers and 155k sponsors on GitHub Sponsors

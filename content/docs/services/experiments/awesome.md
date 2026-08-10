@@ -1,4 +1,5 @@
 ---
+title: Awesome
 ---
 
 Tracking thousands of “awesome lists” on GitHub

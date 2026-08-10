@@ -1,4 +1,5 @@
 ---
+title: Archives
 ---
 
 Inspect the contents of a package or repository

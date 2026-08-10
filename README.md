@@ -6,6 +6,9 @@ The ecosyste.ms documentation site is built with the
 
 ## Local development
 
+Install [Hugo](https://gohugo.io/) (extended, v0.164 or later) and Go — Hugo
+modules fetch the Hextra theme via `go`.
+
 ```bash
 hugo server
 ```

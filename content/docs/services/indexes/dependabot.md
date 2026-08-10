@@ -1,4 +1,5 @@
 ---
+title: Dependabot
 ---
 
 5.22 million pull requests opened by Dependabot

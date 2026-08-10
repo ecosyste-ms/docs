@@ -1,4 +1,5 @@
 ---
+title: Packages
 ---
 
 Metadata for 12.1m packages across 75 sources

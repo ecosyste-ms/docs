@@ -1,4 +1,5 @@
 ---
+title: CLI
 ---
 
 A command-line interface for interfacting with ecosyste.ms APIs.

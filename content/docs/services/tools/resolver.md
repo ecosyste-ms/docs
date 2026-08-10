@@ -1,4 +1,5 @@
 ---
+title: Dependency Resolver
 ---
 
 Resolve the full dependency tree for a package.
