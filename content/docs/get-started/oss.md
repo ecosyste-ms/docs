@@ -9,6 +9,7 @@ Open source developers and researchers use ecosyste.ms to work with the most com
 ## Using the data
 
 * [Make your first API call](/docs/guides/first-api-call)
+* [Client libraries](/docs/guides/client-libraries)
 * [Licenses](/docs/usage/licences)
 * [Glossary](/docs/guides/glossary)
 
