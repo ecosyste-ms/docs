@@ -10,4 +10,5 @@ description: Detailed guides to various aspects of the ecosyste.ms service.
   {{< card link="development/" title="Local development" subtitle="Setting up everything you need installed to work on ecosyste.ms code." >}}
   {{< card link="first-api-call/" title="Your first API call" subtitle="A walk through how to make your first call to the ecosyste.ms API." >}}
   {{< card link="command-line/" title="Command line" subtitle="Access ecosyste.ms data from the command line." >}}
+  {{< card link="client-libraries/" title="Client libraries" subtitle="Official Go and TypeScript client libraries for the ecosyste.ms APIs." >}}
 {{< /cards >}}

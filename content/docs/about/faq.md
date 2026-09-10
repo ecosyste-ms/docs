@@ -13,4 +13,4 @@ Yes, ecosyste.ms is free to use in most situations. Both our code and data are l
 
 #### Can I increase my rate limit?
 
-Yes, ecossyte.ms uses a two-tier system for unathenticated access and higher rate limts can be purchased through out non-profit organisation. [Read more about rate limits](/docs/usage/rate-limits/)
+Yes, ecosyste.ms uses a two-tier system for unauthenticated access and higher rate limits can be purchased through our non-profit organisation. [Read more about rate limits](/docs/usage/rate-limits/)
